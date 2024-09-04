@@ -1,0 +1,597 @@
+/* main.css */
+.navbar-brand img {
+    max-height: 40px; /* Adjust logo height */
+}
+.navbar-nav .nav-link {
+    color: #555; /* Adjust link color */
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Color on hover */
+    text-decoration: none;
+}
+
+.search-bar input[type="text"] {
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+}
+
+.search-bar .btn-outline-secondary {
+    border: none;
+    background-color: transparent;
+}
+
+.search-bar .btn-outline-secondary i {
+    font-size: 1.2rem;
+}
+
+.dropdown-menu .dropdown-item {
+    color: #333;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+.dropdown-menu .dropdown-divider {
+    margin: 0.5rem 0;
+}
+
+.navbar-nav .nav-item .nav-link i {
+    font-size: 1.2rem;
+}
+/* main.css */
+.header {
+    background: linear-gradient(
+      to bottom right, rgb(93, 127, 202), lightyellow, rgb(232, 207, 243));
+    padding: 3rem 0; /* Padding for header section */
+    text-align: center;
+}
+
+.header .display-4 {
+    color: #343a40; /* Darker text color */
+}
+
+.header .lead {
+    color: #6c757d; /* Muted lead text color */
+}
+
+.command-box {
+    font-family: monospace;
+    font-size: 1.25rem;
+    border-radius: 0.25rem;
+    background-color: #343a40; /* Dark background */
+    color: #fff; /* White text */
+}
+
+.btn-purple {
+    background-color: #6f42c1;
+    border-color: #6f42c1;
+    color: #fff;
+}
+
+.btn-purple:hover {
+    background-color: #5a32a3;
+    border-color: #5a32a3;
+    color: #fff;
+}
+
+.version-info a {
+    text-decoration: underline;
+}
+
+.feature-icon {
+    color: #6f42c1; /* Purple color for icons */
+}
+
+.feature-icon .bi {
+    margin: 0 0.5rem;
+    vertical-align: middle;
+}
+
+.feature-icon h2 {
+    color: #343a40; /* Darker text color */
+}
+
+.feature-icon p {
+    color: #6c757d; /* Muted text color */
+}
+
+.feature-icon a {
+    color: #6f42c1; /* Purple color for link */
+    text-decoration: none;
+}
+
+.feature-icon a:hover {
+    text-decoration: underline;
+    color: #5a32a3;
+}
+/* Styles for Installation Options Section */
+.install-options {
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+}
+
+.icon-box {
+    color: #6f42c1; /* Purple color */
+}
+
+.icon-box i {
+    font-size: 2.5rem; /* Increase icon size */
+}
+
+.scrollable-section {
+    background-color: #e9ecef;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    overflow-x: auto; /* Make the section scrollable horizontally */
+    white-space: nowrap; /* Prevent code from wrapping */
+    font-family: monospace;
+    font-size: 1rem;
+    color: #343a40; /* Darker text color */
+    position: relative;
+}
+
+.scrollable-section i {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #6c757d; /* Muted icon color */
+}
+
+.scrollable-section pre {
+    margin: 0;
+}
+/* Styles for Feature Sections */
+.feature-icon i {
+    color: #6f42c1; /* Purple color for icons */
+    font-size: 2.5rem;
+}
+
+.text-center p {
+    margin-top: 1rem;
+}
+
+/* Styles for Images in Guides Section */
+.img-fluid {
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for Command Box */
+.command-box pre {
+    background-color: #e9ecef;
+    padding: 1rem;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 1rem;
+    color: #343a40;
+}
+
+/* Section padding */
+.install-options {
+    padding: 3rem 0;
+    background-color: #f8f9fa;
+}
+/* Styles for Feature Section */
+.feature-icon img {
+    max-width: 100px; /* Adjust the size of the Sass icon */
+    margin-bottom: 1rem; /* Space between icon and heading */
+}
+
+/* Styles for Command Box */
+.command-box pre {
+    background-color: #f8f9fa; /* Light background for code */
+    padding: 1rem; /* Padding inside the code box */
+    border-radius: 5px; /* Rounded corners */
+    font-family: monospace; /* Monospace font for code */
+    font-size: 1rem; /* Standard font size */
+    color: #343a40; /* Dark color for text */
+}
+
+/* Section padding */
+.install-options {
+    padding: 3rem 0; /* Vertical padding for the section */
+    background-color: #ffffff; /* White background for the section */
+}
+/* General Section Styling */
+section {
+    padding: 40px 0;
+}
+
+h2, h4 {
+    font-weight: bold;
+    color: #343a40; /* Dark gray for headings */
+}
+
+p {
+    color: #6c757d; /* Medium gray for paragraph text */
+    line-height: 1.6;
+}
+
+/* Feature Icon Styling */
+.feature-icon {
+    position: relative;
+    padding: 20px;
+    border: 1px solid #e9ecef; /* Light gray border */
+    border-radius: 10px;
+    background-color: #f8f9fa; /* Light background color */
+}
+
+.feature-icon img {
+    max-width: 50px;
+    height: auto;
+}
+
+.plus-icon {
+    font-size: 24px;
+    color: #007bff; /* Bootstrap primary color */
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.feature-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.feature-link:hover {
+    text-decoration: underline;
+}
+
+/* Command Box Styling */
+.command-box {
+    background-color: #f1f3f5;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 15px;
+    overflow-x: auto; /* Allows scrolling horizontally if content overflows */
+}
+
+.command-box pre {
+    margin: 0;
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 0.9rem;
+    color: #212529; /* Dark text color */
+}
+
+/* Scrollable Section for Code */
+.scrollable-section {
+    background-color: #e9ecef;
+    border-radius: 5px;
+    padding: 10px;
+    max-height: 200px; /* Limits height of the scrollable section */
+    overflow-y: auto;
+}
+
+/* Utility API List Styling */
+.nav-pills .nav-link {
+    color: #ffffff;
+    background-color: #007bff; /* Bootstrap primary color */
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.nav-pills .nav-link:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.nav-pills .nav-link.active {
+    background-color: #ffffff;
+    color: #007bff;
+}
+
+/* Installation Options Section Styling */
+.install-options {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.install-options h4 {
+    color: #495057;
+    margin-bottom: 15px;
+}
+
+/* Links and Icons Styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+i.bi-box-arrow-in-right {
+    font-size: 1rem;
+    margin-left: 5px;
+    color: #007bff;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .feature-icon img {
+        max-width: 40px;
+    }
+
+    .plus-icon {
+        font-size: 20px;
+    }
+
+    .nav-pills .nav-link {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+
+    .install-options {
+        padding: 20px;
+    }
+}
+/* General Section Styling */
+section {
+    padding: 40px 0;
+}
+
+h2, h3, h4 {
+    font-weight: bold;
+    color: #343a40; /* Dark gray for headings */
+}
+
+p {
+    color: #6c757d; /* Medium gray for paragraph text */
+    line-height: 1.6;
+}
+
+/* Feature Icon Styling */
+.feature-icon {
+    position: relative;
+    padding: 20px;
+    border: 1px solid #e9ecef; /* Light gray border */
+    border-radius: 10px;
+    background-color: #f8f9fa; /* Light background color */
+    text-align: center;
+}
+
+.feature-icon i {
+    font-size: 48px;
+    color: #007bff; /* Bootstrap primary color */
+    margin-bottom: 20px;
+}
+
+.feature-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.feature-link:hover {
+    text-decoration: underline;
+}
+
+/* Command Box Styling */
+.command-box {
+    background-color: #f1f3f5;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 15px;
+    overflow-x: auto; /* Allows scrolling horizontally if content overflows */
+}
+
+.command-box pre {
+    margin: 0;
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 0.9rem;
+    color: #212529; /* Dark text color */
+}
+
+/* Installation Options Section Styling */
+.install-options {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.install-options h4 {
+    color: #495057;
+    margin-bottom: 15px;
+}
+
+.component-description {
+    padding: 10px;
+    border-left: 3px solid #007bff;
+    margin-bottom: 20px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
+
+.component-description h3 {
+    margin-bottom: 10px;
+    color: #343a40;
+}
+
+.component-description p {
+    margin: 0;
+    color: #6c757d;
+}
+
+/* Links and Icons Styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+i.bi-box-arrow-in-right {
+    font-size: 1rem;
+    margin-left: 5px;
+    color: #007bff;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .feature-icon i {
+        font-size: 36px;
+    }
+
+    .component-description h3 {
+        font-size: 1.2rem;
+    }
+
+    .component-description p {
+        font-size: 0.9rem;
+    }
+
+    .install-options {
+        padding: 20px;
+    }
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1140px;
+}
+
+/* Feature Icon Section */
+.feature-icon {
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon i {
+    font-size: 3rem;
+    color: #0d6efd;
+}
+
+.feature-icon h2 {
+    margin-top: 1rem;
+    font-size: 1.75rem;
+    /*color: #0d6efd;*/
+}
+
+.feature-icon p {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.feature-icon a {
+    color:blue;
+    text-decoration: none;
+}
+
+.feature-icon a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #e2e5ea;
+    border-color: #cdd6e3;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    /*border-radius: 5px;*/
+    text-transform: uppercase;
+}
+/* Image Styles */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.rounded {
+    border-radius: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .text-center {
+        text-align: center;
+    }
+    
+    .align-items-center {
+        align-items: center;
+    }
+    
+    .feature-icon {
+        padding: 1rem;
+    }
+}
+/* Footer Styles */
+.footer {
+    background-color: #343a40;
+    color: #f8f9fa;
+    padding: 2rem 0;
+}
+
+.footer .container {
+    max-width: 1140px;
+}
+
+.footer .row {
+    margin: 0;
+}
+
+.footer i {
+    font-size: 2rem;
+    color: #0d6efd;
+    margin-bottom: 1rem;
+}
+
+.footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+.footer p {
+    font-size: 0.875rem;
+    color: #e9ecef;
+    margin-bottom: 0.5rem;
+}
+
+.footer ul {
+    padding-left: 0;
+}
+
+.footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer ul li a {
+    color: #adb5bd;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.footer .list-unstyled {
+    list-style: none;
+    padding: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer {
+        padding: 1rem 0;
+    }
+    
+    .footer .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
